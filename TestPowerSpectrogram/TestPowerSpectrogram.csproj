@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.5.5" />
+    <PackageReference Include="NAudio" Version="2.0.0" />
+    <PackageReference Include="Spectrogram" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FirstTryAtML101ML.Model\FirstTryAtML101ML.Model.csproj" />
+    <ProjectReference Include="..\TestPowerSpectrogramCore\TestPowerSpectrogramCore.csproj" />
+  </ItemGroup>
+
+</Project>
